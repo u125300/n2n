@@ -31,7 +31,7 @@ MAN8DIR=$(MANDIR)/man8
 
 N2N_LIB=n2n.a
 N2N_OBJS=n2n.o minilzo.o twofish.o tuntap_freebsd.o tuntap_linux.o tuntap_osx.o version.o
-LIBS=-lpthread
+LIBS=
 
 APPS=edge supernode
 DOCS=edge.8.gz supernode.1.gz
