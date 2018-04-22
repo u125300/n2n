@@ -3,7 +3,7 @@ N2N_VERSION="1.3.2"
 
 ########
 
-CC=gcc
+CC=arm-linux-androideabi-gcc
 DEBUG?=-g
 WARN?=-Wall -Wshadow -Wpointer-arith -Wmissing-declarations -Wnested-externs
 
